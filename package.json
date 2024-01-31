@@ -1,0 +1,14 @@
+{
+  "name": "test-leptos-axum",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build":"npx tailwindcss -i ./style/tailwind.css -o ./style/output.css",
+    "watch":"npx tailwindcss -i ./style/tailwind.css -o ./style/output.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tailwindcss": "^3.3.2"
+  }
+}
